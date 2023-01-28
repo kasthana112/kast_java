@@ -32,7 +32,7 @@ function generatePassword() {
       else{
         // user must confirm and click for password criteria
         var hasNumeric = confirm("Click OK to confirm including numeric characters.");
-        var hasLower = confirm("Click OK to confirm including Lower characters.");
+        var hasLower = confirm("Click OK to confirm including Lower characters.");ls
         var hasUpper = confirm("Click OK to confirm including Upper characters.");
         var hasSpecial = confirm("Click OK to confirm including Special characters.");
   
